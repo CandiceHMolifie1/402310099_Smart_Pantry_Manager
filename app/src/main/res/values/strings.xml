@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+
+    <!-- Nav -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Titles -->
+    <string name="title_add_edit_ingredient">Add / Edit Ingredient</string>
+    <string name="title_recipe_detail">Recipe Detail</string>
+
+    <!-- Pantry -->
+    <string name="empty_pantry">Your pantry is empty. Tap + to add your first ingredient.</string>
+    <string name="expiring_soon">Expiring soon</string>
+    <string name="expired">Expired</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete_title">Remove ingredient?</string>
+    <string name="confirm_delete_message">This will permanently remove this item from your pantry.</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Add/Edit -->
+    <string name="hint_ingredient_name">Ingredient name</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_unit">Unit</string>
+    <string name="hint_expiry">Expiry date (optional)</string>
+    <string name="error_name_required">Please enter an ingredient name</string>
+    <string name="error_name_invalid">Only letters, numbers and spaces are allowed</string>
+    <string name="error_quantity_required">Please enter a quantity</string>
+    <string name="error_quantity_invalid">Quantity must be a positive number</string>
+    <string name="save">Save</string>
+
+    <!-- Recipes -->
+    <string name="empty_recipes">No recipes match your pantry yet — add more ingredients to cook without waste!</string>
+    <string name="match_full">100%% Match — Ready to Cook</string>
+    <string name="prep_time_format">%1$d min</string>
+    <string name="ingredients_needed">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="have_it">In pantry</string>
+    <string name="missing_it">Missing</string>
+
+    <!-- Settings -->
+    <string name="settings_highlight_expiring">Highlight expiring-soon items</string>
+    <string name="settings_unit_system">Use imperial units</string>
+    <string name="settings_reset_title">Reset sample data</string>
+    <string name="settings_reset_summary">Restore the default pantry and recipe seed data</string>
+    <string name="settings_clear_title">Clear pantry</string>
+    <string name="settings_clear_summary">Remove all pantry items (recipes are kept)</string>
+    <string name="settings_reset_confirm">This will erase your current pantry and recipes and restore the defaults. Continue?</string>
+    <string name="settings_clear_confirm">This will remove every item currently in your pantry. Continue?</string>
+</resources>
